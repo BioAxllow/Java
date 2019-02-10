@@ -1,0 +1,51 @@
+
+---------------------------------------------------------Database---------------------------------------------------------
+
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2005; Kaina: 2500; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: Opel; Modelis: Astra; Pagaminimo metai: 2010; Kaina: 4000; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2010; Kaina: 5000; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: VW; Modelis: Golf; Pagaminimo metai: 1999; Kaina: 400; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: Peugot; Modelis: 307; Pagaminimo metai: 2002; Kaina: 800; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: Volvo; Modelis: S60; Pagaminimo metai: 1997; Kaina: 600; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: Toyota; Modelis: Yaris; Pagaminimo metai: 2004; Kaina: 2000; Variklio turis: 1.4; Kuro tipas: B;
+Gamintojas: Audi; Modelis: A6; Pagaminimo metai: 2008; Kaina: 6000; Variklio turis: 3.0; Kuro tipas: B;
+Gamintojas: Toyota; Modelis: Corolla; Pagaminimo metai: 2002; Kaina: 1500; Variklio turis: 3.0; Kuro tipas: D;
+Gamintojas: BMW; Modelis: 320; Pagaminimo metai: 2007; Kaina: 4500; Variklio turis: 2.0; Kuro tipas: B;
+
+----------------------------------------Rasti seniausią mašiną ir ją atspausdinti----------------------------------------
+
+Seniausias automobilis yra: Volvo gamintojo ir jis pagamintas: 1997 metais.
+
+----------------------------------------Rasti naujausią mašiną ir ją atspausdinti----------------------------------------
+
+Duomenu bazeje yra keli nauji automobiliai, pagaminti tais pačiais metais: 
+Naujausias automobilis yra: Opel gamintojo ir jis pagamintas: 2010 metais.
+Naujausias automobilis yra: VW gamintojo ir jis pagamintas: 2010 metais.
+
+--------------------------------------Rasti visas mašinas naujesnes nei 2030 metai:--------------------------------------
+
+Naujesniu masinu, nei 2030metai, duomenu bazeje nera!
+
+------------------Rasti visas mašinas, kurios yra pagamintos tarp 2005 ir 2020 metų ir jas atspausdinti------------------
+
+Opel gamintojo ir buvo pagamintas: 2010;
+VW gamintojo ir buvo pagamintas: 2010;
+Audi gamintojo ir buvo pagamintas: 2008;
+BMW gamintojo ir buvo pagamintas: 2007;
+
+------------------------------------Rasti visas VW markės mašinas ir jas atspausdinti------------------------------------
+
+VW gamintojo masinos esancios duomenu bazeje yra: 
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2005; Kaina: 2500; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2010; Kaina: 5000; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: VW; Modelis: Golf; Pagaminimo metai: 1999; Kaina: 400; Variklio turis: 1.9; Kuro tipas: D;
+
+----------------------------Rasti didžiausią variklio tūrį turinčią mašiną ir ją atspausdinti----------------------------
+
+Yra keli vienodi didziausi variklio turiai: 
+Gamintojas: Audi; Modelis: A6; Pagaminimo metai: 2008; Kaina: 6000; Variklio turis: 3.0; Kuro tipas: B;
+Gamintojas: Toyota; Modelis: Corolla; Pagaminimo metai: 2002; Kaina: 1500; Variklio turis: 3.0; Kuro tipas: D;
+
+------------------------------------------Rasti D variklį turinčių mašinų kiekį------------------------------------------
+
+Duomenu bazeje yra 7 masinos, kurios naudoja dyzeliną.
