@@ -1,0 +1,8 @@
+{
+  "id": 2,
+  "date": "2000-01-01",
+  "number": "INV 02",
+  "sum": 2222.00,
+  "client": null,
+  "invLines": null
+}

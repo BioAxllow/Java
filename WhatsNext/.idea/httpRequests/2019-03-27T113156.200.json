@@ -1,0 +1,81 @@
+Invoice{
+  id=1,
+  date=2018-09-10,
+  number=
+  'INV 01',
+  sum=1111.00,
+  invLines=[
+  InvLine
+  {
+    id=1,
+    product=Product
+  {
+    id=3,
+    name=
+    'Windows 10',
+    description=
+    'null',
+    price=30.99
+  },
+  quantity=1000,
+  price=1111.00
+  },
+  InvLine
+  {
+    id=2,
+    product=Product
+  {
+    id=1,
+    name=
+    'Windows 3.11',
+    description=
+    'null',
+    price=10.99
+  },
+  quantity=1001,
+  price=1122.00
+  },
+  InvLine
+  {
+    id=3,
+    product=Product
+  {
+    id=3,
+    name=
+    'Windows 10',
+    description=
+    'null',
+    price=30.99
+  },
+  quantity=2000,
+  price=2211.00
+  },
+  InvLine
+  {
+    id=4,
+    product=Product
+  {
+    id=1,
+    name=
+    'Windows 3.11',
+    description=
+    'null',
+    price=10.99
+  },
+  quantity=2001,
+  price=2222.00
+  }
+]}
+
+Invoice{id=2, date=2000-01-01, number='INV 02', sum=2222.00, invLines=[
+InvLine{id=5, product=Product{id=3, name='Windows 10', description='null', price=30.99}, quantity=3000, price=3311.00},
+InvLine{
+id=6, product=Product{
+id=1, name='Windows 3.11', description='null', price=10.99}, quantity=3001, price=3322.00
+},
+InvLine{
+id=7, product=Product{id=3, name='Windows 10', description='null', price=30.99}, quantity=4000, price=4411.00
+},
+InvLine{
+id=8, product=Product{id=1, name='Windows 3.11', description='null', price=10.99}, quantity=4001, price=4422.00}
+]}

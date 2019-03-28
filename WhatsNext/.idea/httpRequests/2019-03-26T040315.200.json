@@ -1,0 +1,19 @@
+{
+  "errorCode": 0,
+  "data": {
+    "id": 3,
+    "date": [
+      2018,
+      9,
+      26
+    ],
+    "number": "INV 03",
+    "sum": 3333.00,
+    "client": {
+      "id": 2,
+      "name": "Microsoft",
+      "city": "Washington",
+      "discount": 10,
+      "post": 44
+    },
+    "invLines"

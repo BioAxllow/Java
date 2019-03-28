@@ -1,0 +1,9 @@
+Invoice{
+  id=3,
+  date=2018-09-26,
+  number=
+  'INV 03',
+  sum=3333.00,
+  invLines=[]}
+
+Invoice{id=4, date=2018-09-26, number='INV 04', sum=4444.00, invLines=[]}

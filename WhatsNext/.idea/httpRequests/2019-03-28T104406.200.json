@@ -1,0 +1,113 @@
+Invoice{
+  id=1,
+  date=2018-09-10,
+  number=
+  'INV 01',
+  sum=1111.00,
+  invLines=[
+  InvLine
+  {
+    id=1,
+    product=Product
+  {
+    id=1,
+    name=
+    'Windows 3.11',
+    description=
+    'bla ab ab bing',
+    price=10.99
+  },
+  quantity=1000,
+  price=1111.00
+  },
+  InvLine
+  {
+    id=2,
+    product=Product
+  {
+    id=4,
+    name=
+    'Windows 8.1',
+    description=
+    'pure awesomness',
+    price=50.00
+  },
+  quantity=1001,
+  price=1144.00
+  },
+  InvLine
+  {
+    id=3,
+    product=Product
+  {
+    id=2,
+    name=
+    'Windows XP',
+    description=
+    'cha cha smile',
+    price=20.99
+  },
+  quantity=1002,
+  price=1122.00
+  },
+  InvLine
+  {
+    id=4,
+    product=Product
+  {
+    id=2,
+    name=
+    'Windows XP',
+    description=
+    'cha cha smile',
+    price=20.99
+  },
+  quantity=2000,
+  price=2222.00
+  },
+  InvLine
+  {
+    id=5,
+    product=Product
+  {
+    id=5,
+    name=
+    'Windows Vista',
+    description=
+    'Lay me some eggs',
+    price=1.00
+  },
+  quantity=2001,
+  price=2255.00
+  },
+  InvLine
+  {
+    id=6,
+    product=Product
+  {
+    id=3,
+    name=
+    'Windows 10',
+    description=
+    'ogohoho',
+    price=30.99
+  },
+  quantity=2002,
+  price=2233.00
+  }
+]}
+
+Invoice{id=2, date=2000-01-01, number='INV 02', sum=2222.00, invLines=[
+InvLine{id=7, product=Product{id=3, name='Windows 10', description='ogohoho', price=30.99}, quantity=3000, price=3333.00},
+InvLine{
+id=8, product=Product{
+id=6, name='Windows 7.0', description='fk it, it was good while it lasted', price=48.00}, quantity=3001, price=3366.00
+},
+InvLine{
+id=9, product=Product{id=4, name='Windows 8.1', description='pure awesomness', price=50.00}, quantity=3002, price=3344.00
+},
+InvLine{
+id=10, product=Product{id=3, name='Windows 10', description='ogohoho', price=30.99}, quantity=4000, price=4433.00},
+InvLine{id=11, product=Product{id=1, name='Windows 3.11', description='bla ab ab bing', price=10.99}, quantity=4001, price=4411.00},
+InvLine{id=12, product=Product{id=5, name='Windows Vista', description='Lay me some eggs', price=1.00}, quantity=4002, price=4455.00}
+]}
