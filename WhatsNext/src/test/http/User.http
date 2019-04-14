@@ -1,0 +1,87 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+###
+
+POST http://localhost:8080/laaaabas/api/auth/create
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "vardas@f.lt",
+  "password": "belekas",
+  "role": "SimpleUser"
+}
+
+###
+
+GET http://localhost:8080/laaaabas/api/auth/list
+Accept: application/json
+
+###
+
+POST http://localhost:8080/laaaabas/api/auth/login
+Accept: application/json
+Content-Type: application/json
+//tuscia linija yra skirtukas tarp header ir body, get info keliauja tik in header, o post in body
+
+{
+  "username": "vardas@f.lt",
+  "password": "belekas"
+}
+
+###
+
+POST http://localhost:8080/laaaabas/api/auth/login
+Accept: application/json
+Content-Type: application/json
+//tuscia linija yra skirtukas tarp header ir body, get info keliauja tik in header, o post in body
+
+{
+  "username": "auris",
+  "password": "auris"
+}
+
+###
+###
+//testas su blogu pwd
+POST http://localhost:8080/laaaabas/api/auth/create
+Accept: application/json
+Content-Type: application/json
+//tuscia linija yra skirtukas tarp header ir body, get info keliauja tik in header, o post in body
+
+{
+  "username": "auris",
+  "password": "betkoks",
+  "role": "Admin"
+}
+
+###
+
+POST http://localhost:8080/laaaabas/api/auth/logout
+Accept: application/json
+
+###
+
+POST http://localhost:8080/laaaabas/api/auth/create
+Accept: application/json
+Content-Type: application/json
+//tuscia linija yra skirtukas tarp header ir body, get info keliauja tik in header, o post in body
+
+{
+  "username": "auris",
+  "password": "auris",
+  "role": "SimpleUser"
+}
+
+###
+
+GET http://localhost:8080/laaaabas/api/auth/genkey/256
+Accept: application/json
+
+
+###

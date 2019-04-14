@@ -50,10 +50,11 @@ public class Client {
     @Column(length = 10)
     private Integer post;
 
+    //    @Expose
     @JsonIgnore
-    @OneToMany(mappedBy = "client", fetch = FetchType.LAZY)
-//    @Expose
+    @OneToMany(mappedBy = "client", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
     Set<Invoice> invoices;
+
 
     @Override
     public String toString() {

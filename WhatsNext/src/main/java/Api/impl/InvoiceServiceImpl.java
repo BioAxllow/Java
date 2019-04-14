@@ -1,77 +1,79 @@
 package Api.impl;
 
-import Api.InvoiceService;
+import Api.impl.requests.AddInvoiceLineRequest;
 import dao.Dao;
+import entities.InvLine;
 import entities.Invoice;
-import helpers.EntityManagerHelper;
+import entities.Product;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
 
-public class InvoiceServiceImpl implements InvoiceService {
+@Path("/invoice")
+public class InvoiceServiceImpl extends BaseService<Invoice> {
+
+
+    @Context //<- injects info when UserService object is created
+    private HttpServletRequest servletRequest;
+
     @Override
-    public Response add(Invoice e) {
-        return null;
+    protected Class<Invoice> getEntityClass() {
+        return Invoice.class;
     }
 
     @Override
-    public Response delete(int id) {
-        Dao<Invoice> invoiceDao=new Dao<>(EntityManagerHelper.getEntityManager());
-        Invoice invoice=invoiceDao.read(Invoice.class,id);
-        if (invoice == null) {
-            return Response.status(Response.Status.NOT_FOUND).build();
-        }else {
-            invoiceDao.delete(invoice);
-        }
-        return Response.ok().entity(invoice).build();
-    }
+    public Response list(int size, int skip) {
+        HttpSession session = servletRequest.getSession();
 
-    @Override
-    public Response get(int id) {
-        return null;
-    }
-
-    @Override
-    public Response update(int id, Invoice e) {
-        return null;
-    }
-
-    @Override
-    public Response getPage(int size, int skip) {
-        return null;
-    }
-
-//    public Response add(Invoice e) {
-//        Dao<Invoice> invoiceDao=new Dao<>(EntityManagerHelper.getEntityManager());
-//        if (e==null){
-//            return Response.status(Response.Status.NO_CONTENT).build();
+//        if (session.getAttribute("user") != null) {
+//            return super.list(size, skip);
 //        }
-//        Invoice invoice=invoiceDao.create(e);
-//        return Response.ok().entity(invoice).build();
-//    }
-//
-//
-//
-//    public Response get(int id) { //gautas id, bus perduotas  @PathParam("id") int id, @PathParam("a") int oe
-//        Dao<Invoice> invoiceDao = new Dao<>(EntityManagerHelper.getEntityManager());
-//        Invoice invoice = invoiceDao.read(Invoice.class, id);
-//        if (invoice == null) {
-//            return Response.status(Response.Status.NOT_FOUND).build();
-//        }
-//        return Response.ok().entity(invoice).build();
-//    }
-//
-//
-//    public Response update( int id, Invoice e) {
-//        Dao<Invoice> invoiceDao=new Dao<>(EntityManagerHelper.getEntityManager());
-//        Invoice invoice=invoiceDao.read(Invoice.class,id);
-//
-//
-//        invoiceDao.update(e);
-//        return null;
-//    }
-//
-//
-//    public Response getPage(int size, int skip) {
-//        return null;
-//    }
+//        return Response.status(Response.Status.UNAUTHORIZED).build();
+        return super.list(size, skip);
+    }
+
+    //cookies name, galiojimo laikas, psl is kurio atejo,
+
+
+    @GET
+    @Path("/{id}/f")
+    public Response getFull(@PathParam("id") int id) {
+
+        Dao<Invoice> invoiceDao = createDao();
+        Invoice entity = invoiceDao.read(id, Invoice.GRAPH_LINES);
+
+        if (entity == null) return Response.status(Response.Status.NOT_FOUND).build();
+        return Response.ok(entity).build();
+
+    }
+
+    @POST
+    @Path("/{id}")
+    public Response addInvoiceLine(@PathParam("id") int id, AddInvoiceLineRequest addInvoiceLineRequest) {
+
+        Dao<Invoice> invoiceDao = createDao();
+        Invoice invoice = invoiceDao.read(id);
+
+        Dao<Product> productDao = new Dao<>(Product.class);
+        Product product = productDao.read(addInvoiceLineRequest.getId());
+        if (product == null) return Response.status(Response.Status.NOT_FOUND).build();
+
+        if (invoice == null) return Response.status(Response.Status.NOT_FOUND).build();
+        InvLine invLine = new InvLine();
+        invLine.setInvoice(invoice);
+        invLine.setQuantity(addInvoiceLineRequest.getQty());
+        invLine.setProduct(product);
+        invLine.setPrice(product.getPrice());
+
+        invoice.getInvLines().add(invLine);
+        invoice = invoiceDao.update(invoice);
+        return Response.ok(invoice).build();
+
+    }
 }

@@ -1,0 +1,105 @@
+{
+  "id": 1,
+  "date": "2018-09-10",
+  "number": "INV 01",
+  "sum": 1111.00,
+  "client": null,
+  "invLines": [
+    {
+      "id": 1,
+      "product": {
+        "id": 1,
+        "name": "Win 1.0",
+        "description": "MS Windows 1.0",
+        "price": 999.99,
+        "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/9a62633f-3757.windows-1_0-logo.png"
+      },
+      "quantity": 1000,
+      "price": 1111.00
+    },
+    {
+      "id": 2,
+      "product": {
+        "id": 4,
+        "name": "Win 3.11",
+        "description": "MS Windows 3.11",
+        "price": 99.99,
+        "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/e83a4107-windows_3.0__3.1x_logo.png"
+      },
+      "quantity": 1001,
+      "price": 1144.00
+    },
+    {
+      "id": 3,
+      "product": {
+        "id": 2,
+        "name": "Win 2.0",
+        "description": "MS Windows 2.0",
+        "price": 199.99,
+        "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/9a62633f-3757.windows-1_0-logo.png"
+      },
+      "quantity": 1002,
+      "price": 1122.00
+    },
+    {
+      "id": 4,
+      "product": {
+        "id": 2,
+        "name": "Win 2.0",
+        "description": "MS Windows 2.0",
+        "price": 199.99,
+        "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/9a62633f-3757.windows-1_0-logo.png"
+      },
+      "quantity": 2000,
+      "price": 2222.00
+    },
+    {
+      "id": 5,
+      "product": {
+        "id": 5,
+        "name": "Win 95",
+        "description": "MS Windows 95",
+        "price": 95.99,
+        "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/9aa75ae0-windows_95_logo_with_shadow.png"
+      },
+      "quantity": 2001,
+      "price": 2255.00
+    },
+    {
+      "id": 6,
+      "product": {
+        "id": 3,
+        "name": "Win 3.0",
+        "description": "MS Windows 3.0",
+        "price": 99.99,
+        "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/015bb007-windows_3.0.png"
+      },
+      "quantity": 2002,
+      "price": 2233.00
+    },
+    {
+      "id": 13,
+      "product": {
+        "id": 2,
+        "name": "Win 2.0",
+        "description": "MS Windows 2.0",
+        "price": 199.99,
+        "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/9a62633f-3757.windows-1_0-logo.png"
+      },
+      "quantity": 10,
+      "price": 199.99
+    },
+    {
+      "id": 14,
+      "product": {
+        "id": 2,
+        "name": "Win 2.0",
+        "description": "MS Windows 2.0",
+        "price": 199.99,
+        "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/9a62633f-3757.windows-1_0-logo.png"
+      },
+      "quantity": 10,
+      "price": 199.99
+    }
+  ]
+}

@@ -7,7 +7,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "invoices")
-//@NamedEntityGraph(name = "invoice-Lines", attributeNodes = @NamedAttributeNode("invLines"))
+@NamedEntityGraph(name = Invoice.GRAPH_LINES, attributeNodes = @NamedAttributeNode("invLines"))
 public class Invoice {
 
     @Id
@@ -17,11 +17,13 @@ public class Invoice {
     private String number;
     private BigDecimal sum;
 
+    public static final String GRAPH_LINES= "invoice-lines";
+
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "client_id", referencedColumnName = "id")
+//    @JoinColumn(name = "client_id", referencedColumnName = "id")
     private Client client;
 
-    @OneToMany(mappedBy = "invoice", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST /*All*/, orphanRemoval = true)
+    @OneToMany(mappedBy = "invoice", fetch = FetchType.LAZY, cascade = CascadeType.ALL /*All*/, orphanRemoval = true)
     private List<InvLine> invLines;
 
     public Integer getId() {

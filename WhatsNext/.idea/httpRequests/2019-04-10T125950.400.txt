@@ -1,0 +1,2 @@
+Unrecognized field "has" (class entities.Cart), not marked as ignorable (3 known properties: "id", "user", "uuid"])
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 3, column: 11] (through reference chain: entities.Cart["has"])

@@ -7,12 +7,98 @@
 
 ###
 
-GET http://localhost:8080/laaaabas/api/invoice?id=3
+GET http://localhost:8080/laaaabas/api/invoice/1
+Accept: application/json
+
+###
+
+GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
+Accept: application/json
+#Authorization: Bearer "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQWRtaW4iLCJ1c2VyTmFtZSI6ImF1cmltYXMiLCJ1c2VySWQiOjIsImV4cCI6MTU1NDM2NjU4OX0.EA4hWOA5U-hyY4yY3j_oBmheGG9swz0jZSQC_3Ieu6U"
+
+
+###
+
+GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
+Accept: application/json
+
+###
+#
+#GET http://localhost:8080/laaaabas/api/invoice/list?size=2&skip=2 <- parametram eiliskumas neturi reiksmes
+#Accept: application/json
+#
+####
+
+GET http://localhost:8080/laaaabas/api/invoice/list
 Accept: application/json
 
 ###
 
 DELETE http://localhost:8080/laaaabas/api/invoice/3
 Accept: application/json
+
+###
+
+#POST http://localhost:8080/laaaabas/api/invoice
+#Content-Type: application/json
+#Accept: application/json
+#
+#{
+#  "id": 9,
+#  "name": "Windows Vista Bandymas",
+#  "description": "New features of Windows Vista include an updated graphical user interface and visual style dubbed Aero",
+#  "price": 1.99,
+#  "image": "https://upload.wikimedia.org/wikipedia/en/a/a3/Windows_Vista.png"
+#}
+
+###
+
+PUT http://localhost:8080/laaaabas/api/invoice/2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 2,
+  "date": null,
+  "number": "INV 01-05",
+  "sum": null,
+  "invLines": null,
+  "client": null
+
+}
+
+###
+# (6 known properties: "number", "id", "date", "sum", "invLines", "client")
+# ignores "id" parameter, as our "id" is genereated automatically, nurodysim "id" 12 -> sukurs sekanti DB el, su "id" pvz po 4o - 5ą
+
+POST http://localhost:8080/laaaabas/api/invoice
+Content-Type: application/json
+
+{
+  "id": 10,
+  "date": "1111-03-29",
+  "number": "POST 0133",
+  "sum": 133333.00,
+  "invLines": null,
+  "client": null
+
+}
+
+###
+
+GET http://localhost:8080/laaaabas/api/invoice/list
+Accept: application/json
+#Cookie: JSESSIONID=1EDFDACCB4477ABE8C7B70C33B854901;
+
+###
+
+POST http://localhost:8080/laaaabas/api/invoice/2
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 2,
+  "qty": 10
+}
 
 ###

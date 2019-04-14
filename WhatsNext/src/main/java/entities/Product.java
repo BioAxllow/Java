@@ -3,19 +3,40 @@ package entities;
 import javax.persistence.*;
 import java.math.BigDecimal;
 
-
 @Entity
 @Table(name = "products")
 public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @Column(name = "product_id")
     private Integer id;
     private String name;
     private String description;
     private BigDecimal price;
-
     private String image;
+
+//    @ManyToOne
+//    private CartLine cartLine;
+
+//    @OneToMany(mappedBy = "product")
+//    private Set<InvLine> invLine;
+//
+//    public Set<InvLine> getInvLine() {
+//        return invLine;
+//    }
+//
+//    public void setInvLine(Set<InvLine> invLine) {
+//        this.invLine = invLine;
+//    }
+
+    //    public InvLine getInvLine() {
+//        return invLine;
+//    }
+//
+//    public void setInvLine(InvLine invLine) {
+//        this.invLine = invLine;
+//    }
 
     public Integer getId() {
         return id;

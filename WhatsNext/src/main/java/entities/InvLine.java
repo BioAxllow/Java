@@ -1,6 +1,6 @@
 package entities;
 
-import com.google.gson.annotations.Expose;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -13,11 +13,13 @@ public class InvLine {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @JsonIgnore
     @ManyToOne
-//    @Expose
     private Invoice invoice;
 
+    //    @JsonIgnore
     @ManyToOne
+//    @JoinColumn(name = "product_id", referencedColumnName = "id")
     private Product product;
 
     private Integer quantity;

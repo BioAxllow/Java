@@ -1,0 +1,18 @@
+.shop-wrapper {
+    /*margin-top: 50px;*/
+    /*margin-bottom: 50px;*/
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    margin: auto;
+}
+
+.btn-cart {
+    margin: auto;
+    /*background-image: image("img/cart.svg");*/
+    background-color: cornflowerblue;
+    color: ghostwhite;
+}
+
+/*.hide-id{*/
+    /*display: none;*/
+/*}*/

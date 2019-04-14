@@ -20,7 +20,7 @@ public class ProductServlet extends HttpServlet {
         resp.setContentType("application/json");
         resp.setCharacterEncoding("UTF-8");
 
-        Dao<Product> productDao=new Dao<>(EntityManagerHelper.getEntityManager());
+        Dao<Product> productDao=new Dao<>(Product.class);
         //TODO if id =1, kviesti read, jei yra ir skip ir size, kviesti list
 
     }

@@ -1,0 +1,2 @@
+Cannot construct instance of `entities.User` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('aurimas')
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 2, column: 11] (through reference chain: entities.Cart["user"])

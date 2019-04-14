@@ -7,11 +7,23 @@
 
 ###
 
-GET http://localhost:8080/laaaabas/api/product/list?size=2&?skip=1
+GET http://localhost:8080/laaaabas/api/product/1
 Accept: application/json
+######
+
+GET http://localhost:8080/laaaabas/api/product/list?size=5&?skip=0
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQWRtaW4iLCJ1c2VyTmFtZSI6ImF1cmltYXMiLCJ1c2VySWQiOjIsImV4cCI6MTU1NDM2OTM4Mn0.r2v7IRbm4hUdehdENIFa4JNx2TNzJbEOF23bm7Hgmy0
+
 ###
 
 GET http://localhost:8080/laaaabas/api/product/list
 Accept: application/json
+
+###
+
+GET http://localhost:8080/laaaabas/api/product/list
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQWRtaW4iLCJ1c2VyTmFtZSI6ImF1cmltYXMiLCJ1c2VySWQiOjIsImV4cCI6MTU1NDM2NzYzN30.fyDNSQcK2fp1ScAx37iywS6U4BjFBJzQF6hgG7lc4yg
 
 ###
