@@ -1,0 +1,2 @@
+Unrecognized field "date" (class Api.impl.requests.AddInvoiceLineRequest), not marked as ignorable (2 known properties: "id", "qty"])
+ at [Source: (org.glassfish.jersey.message.internal.ReaderInterceptorExecutor$UnCloseableInputStream); line: 3, column: 12] (through reference chain: Api.impl.requests.AddInvoiceLineRequest["date"])

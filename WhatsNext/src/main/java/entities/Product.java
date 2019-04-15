@@ -10,7 +10,7 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 //    @Column(name = "product_id")
-    private Integer id;
+    private int id;
     private String name;
     private String description;
     private BigDecimal price;
@@ -77,16 +77,6 @@ public class Product {
     public void setImage(String image) {
         this.image = image;
     }
-
-//    @Override
-//    public String toString() {
-//        return "Product{" +
-//                "id=" + id +
-//                ", name='" + name + '\'' +
-//                ", description='" + description + '\'' +
-//                ", price=" + price +
-//                '}';
-//    }
 
 
     @Override

@@ -1,64 +1,25 @@
-GET http://localhost:8080/laaaabas/api/product/1
+GET http://localhost:8080/ecommerce/api/cart/1/f
 Accept: application/json
+Content-Type: application/json
 
-<> 2019-04-13T062808.200.json
+<> 2019-04-15T032842.404.html
 
 ###
 
-GET http://localhost:8080/laaaabas/api/product/1
-Accept: application/json
+POST http://localhost:8080/laaaabas/api/invoice/1
+Content-Type: application/json
 
-<> 2019-04-13T062318.200.json
+{
+  "id": 10,
+  "date": "1111-03-29",
+  "number": "POST 0133",
+  "sum": 133333.00,
+  "invLines": null,
+  "client": null
 
-###
+}
 
-GET http://localhost:8080/laaaabas/api/product/1
-Accept: application/json
-
-<> 2019-04-13T061508.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/product/1
-Accept: application/json
-
-<> 2019-04-13T061458.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/product/1
-Accept: application/json
-
-<> 2019-04-13T043231.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/product/1
-Accept: application/json
-
-<> 2019-04-13T042833.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/product/list
-Accept: application/json
-
-<> 2019-04-13T042814.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/product/list?size=5&?skip=0
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQWRtaW4iLCJ1c2VyTmFtZSI6ImF1cmltYXMiLCJ1c2VySWQiOjIsImV4cCI6MTU1NDM2OTM4Mn0.r2v7IRbm4hUdehdENIFa4JNx2TNzJbEOF23bm7Hgmy0
-
-<> 2019-04-13T042811.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/product/1
-Accept: application/json
-
-<> 2019-04-13T042805.200.json
+<> 2019-04-15T031116.400.txt
 
 ###
 
@@ -71,198 +32,68 @@ Content-Type: application/json
   "qty": 10
 }
 
-<> 2019-04-13T042035.200.json
-
 ###
 
 GET http://localhost:8080/laaaabas/api/invoice/list
 Accept: application/json
 
-<> 2019-04-13T042010.200.json
+<> 2019-04-15T031053.200.json
 
 ###
 
-GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
+GET http://localhost:8080/ecommerce/api/cart/list
 Accept: application/json
 
-<> 2019-04-13T042005.200.json
+<> 2019-04-15T031035.404.html
 
 ###
 
-GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
-Accept: application/json
-
-<> 2019-04-13T042000.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/1
-Accept: application/json
-
-<> 2019-04-13T041957.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/auth/list
-Accept: application/json
-
-###
-
-GET http://localhost:8080/laaaabas/api/auth/list
-Accept: application/json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
-Accept: application/json
-
-<> 2019-04-10T024655.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/product/list
-Accept: application/json
-
-<> 2019-04-10T024454.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/product/list?size=5&?skip=0
-Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQWRtaW4iLCJ1c2VyTmFtZSI6ImF1cmltYXMiLCJ1c2VySWQiOjIsImV4cCI6MTU1NDM2OTM4Mn0.r2v7IRbm4hUdehdENIFa4JNx2TNzJbEOF23bm7Hgmy0
-
-<> 2019-04-10T024453.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
-Accept: application/json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
-Accept: application/json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/1
-Accept: application/json
-
-<> 2019-04-10T024302.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
-Accept: application/json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
-Accept: application/json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
-Accept: application/json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
-Accept: application/json
-Authorization: Bearer "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQWRtaW4iLCJ1c2VyTmFtZSI6ImF1cmltYXMiLCJ1c2VySWQiOjIsImV4cCI6MTU1NDM2NjU4OX0.EA4hWOA5U-hyY4yY3j_oBmheGG9swz0jZSQC_3Ieu6U"
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/1
-Accept: application/json
-
-<> 2019-04-10T024035.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/1/f
-Accept: application/json
-
-<> 2019-04-10T023517.200.json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
-Accept: application/json
-Authorization: Bearer "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQWRtaW4iLCJ1c2VyTmFtZSI6ImF1cmltYXMiLCJ1c2VySWQiOjIsImV4cCI6MTU1NDM2NjU4OX0.EA4hWOA5U-hyY4yY3j_oBmheGG9swz0jZSQC_3Ieu6U"
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/list?skip=0&size=5
-Accept: application/json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/list
-Accept: application/json
-
-###
-
-GET http://localhost:8080/laaaabas/api/invoice/list
-Accept: application/json
-
-###
-
-POST http://localhost:8080/laaaabas/api/auth/login
-Accept: application/json
+POST http://localhost:8080/ecommerce/api/cart/1
 Content-Type: application/json
+Accept: application/json
 
 {
-  "username": "auris",
-  "password": "auris"
+  "id": 1,
+  "qty": 100
 }
 
-<> 2019-04-10T103459.200.json
+<> 2019-04-15T031024.404.html
 
 ###
 
-GET http://localhost:8080/laaaabas/api/invoice/list
-Accept: application/json
-
-###
-
-POST http://localhost:8080/laaaabas/api/auth/create
-Accept: application/json
+PUT http://localhost:8080/laaaabas/api/invoice/2
 Content-Type: application/json
+Accept: application/json
 
 {
-  "username": "auris",
-  "password": "auris",
-  "role": "SimpleUser"
+  "id": 2,
+  "date": null,
+  "number": "INV 01-05",
+  "sum": null,
+  "invLines": null,
+  "client": null
+
 }
 
-<> 2019-04-10T103318.200.json
+<> 2019-04-15T030955.500.html
 
 ###
 
-POST http://localhost:8080/laaaabas/api/cart
-Accept: application/json
+PUT http://localhost:8080/laaaabas/api/invoice/2
 Content-Type: application/json
+Accept: application/json
 
 {
+  "id": 2,
+  "date": null,
+  "number": "INV 01-05",
+  "sum": null,
+  "invLines": null,
+  "client": null
 
-  "has": "rara"
 }
 
-<> 2019-04-10T125950.400.txt
-
-###
-
-POST http://localhost:8080/laaaabas/api/cart
-Accept: application/json
-Content-Type: application/json
-
-{
-  "user": "aurimas",
-  "has": "rara"
-}
-
-<> 2019-04-10T125913.400.txt
+<> 2019-04-15T030451.500.html
 
 ###
 
@@ -272,103 +103,455 @@ Content-Type: application/json
 
 {}
 
-<> 2019-04-10T125835.200.json
+<> 2019-04-15T030200.400.txt
 
 ###
 
 POST http://localhost:8080/laaaabas/api/cart
-Accept: application/json
-
-###
-
-POST http://localhost:8080/laaaabas/api/cart
-Accept: application/json
-
-###
-
-POST http://localhost:8080/laaaabas/api/cart
-Accept: application/json
-
-<> 2019-04-09T115530.500.html
-
-###
-
-GET http://localhost:8080/laaaabas/api/cart
-Accept: application/json
-
-###
-
-POST http://localhost:8080/laaaabas/api/invoice/2
 Accept: application/json
 Content-Type: application/json
 
+{}
+
+<> 2019-04-15T024655.400.txt
+
+###
+
+GET http://localhost:8080/laaaabas/api/cart/list
+Accept: application/json
+Content-Type: application/json
+
+<> 2019-04-15T024648.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/invoice/1
+Content-Type: application/json
+
 {
-  "id": 2,
-  "qty": 10
+  "id": 10,
+  "date": "1111-03-29",
+  "number": "POST 0133",
+  "sum": 133333.00,
+  "invLines": null,
+  "client": null
+
 }
 
-<> 2019-04-08T054018.200.json
+<> 2019-04-15T023655.400.txt
 
 ###
 
-GET http://localhost:8080/laaaabas/api/invoice/1/f
-Accept: application/json
+POST http://localhost:8080/laaaabas/api/invoice/1
+Content-Type: application/json
 
-<> 2019-04-08T054006.200.json
+{
+  "id": 10,
+  "date": "1111-03-29",
+  "number": "POST 0133",
+  "sum": 133333.00,
+  "invLines": null,
+  "client": null
+
+}
+
+<> 2019-04-15T022556.400.txt
 
 ###
 
-GET http://localhost:8080/laaaabas/api/invoice/1
-Accept: application/json
+POST http://localhost:8080/laaaabas/api/invoice
+Content-Type: application/json
 
-<> 2019-04-08T053959.200.json
+{
+  "id": 10,
+  "date": "1111-03-29",
+  "number": "POST 0133",
+  "sum": 133333.00,
+  "invLines": null,
+  "client": null
+
+}
+
+<> 2019-04-15T022533.500.html
 
 ###
 
-GET http://localhost:8080/laaaabas/api/invoice/1
+POST http://localhost:8080/laaaabas/api/invoice
+Content-Type: application/json
+
+{
+  "id": 10,
+  "date": "1111-03-29",
+  "number": "POST 0133",
+  "sum": 133333.00,
+  "invLines": null,
+  "client": null
+
+}
+
+<> 2019-04-15T022317.500.html
+
+###
+
+GET http://localhost:8080/laaaabas/api/product/list
 Accept: application/json
 
-<> 2019-04-08T053006.404.json
+<> 2019-04-15T022314.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/invoice
+Content-Type: application/json
+
+{
+  "id": 10,
+  "date": "1111-03-29",
+  "number": "POST 0133",
+  "sum": 133333.00,
+  "invLines": null,
+  "client": null
+
+}
+
+<> 2019-04-15T022233.500.html
+
+###
+
+POST http://localhost:8080/laaaabas/api/invoice
+Content-Type: application/json
+
+{
+  "id": 10,
+  "date": "1111-03-29",
+  "number": "POST 0133",
+  "sum": 133333.00,
+  "invLines": null,
+  "client": null
+
+}
+
+<> 2019-04-15T021154.500.html
 
 ###
 
 GET http://localhost:8080/laaaabas/api/invoice/list
 Accept: application/json
 
-<> 2019-04-08T052938.404.json
+<> 2019-04-15T021149.200.json
 
 ###
 
-POST http://localhost:8080/laaaabas/api/invoice/2
+POST http://localhost:8080/laaaabas/api/cart/add
 Accept: application/json
 Content-Type: application/json
 
 {
-  "id": 2,
-  "qty": 10
+  "id": 1,
+  "qty": 2
 }
-
-<> 2019-04-08T123320.404.json
 
 ###
 
-POST http://localhost:8080/laaaabas/api/invoice/2
+POST http://localhost:8080/laaaabas/api/cart/add
 Accept: application/json
 Content-Type: application/json
 
 {
-  "id": 2,
-  "qty": 10
+  "id": 1,
+  "qty": 2
 }
-
-<> 2019-04-08T120707.200.json
 
 ###
 
-GET http://localhost:8080/laaaabas/api/invoice/1/f
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
+
+###
+
+GET http://localhost:8080/laaaabas/api/cart/list
+Accept: application/json
+Content-Type: application/json
+
+<> 2019-04-15T021118.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+<> 2019-04-15T021107.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+<> 2019-04-15T020914.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+<> 2019-04-15T020910.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
+
+###
+
+POST http://localhost:8080/laaaabas/api/invoice
+Content-Type: application/json
+
+{
+  "id": 10,
+  "date": "1111-03-29",
+  "number": "POST 0133",
+  "sum": 133333.00,
+  "invLines": null,
+  "client": null
+
+}
+
+<> 2019-04-15T020537.500.html
+
+###
+
+GET http://localhost:8080/laaaabas/api/invoice/list
 Accept: application/json
 
-<> 2019-04-08T120612.200.json
+<> 2019-04-15T020530.200.json
+
+###
+
+GET http://localhost:8080/laaaabas/api/product/1
+Accept: application/json
+
+<> 2019-04-15T020511.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+<> 2019-04-15T020023.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/sessionCart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+###
+
+POST http://localhost:8080/laaaabas/api/sessionCart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+###
+
+POST http://localhost:8080/laaaabas/api/sessionCart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+###
+
+POST http://localhost:8080/laaaabas/api/sessionCart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+<> 2019-04-15T015727.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+<> 2019-04-15T015703.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+<> 2019-04-15T015602.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+<> 2019-04-15T015516.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+<> 2019-04-15T015448.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+<> 2019-04-15T015442.200.json
+
+###
+
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
 
 ###
 

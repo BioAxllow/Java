@@ -16,7 +16,7 @@
 <body>
 
 <div class="shop-wrapper">
-    <button type="button" class="btn btn-cart" data-toggle="modal" data-target="#myModal">Open Cart</button>
+    <button type="button" class="btn btn-cart" data-toggle="modal" data-target="#myModal">Open Cart: &nbsp <span class="float-right" id="count-total-products">0</span></button>
 </div>
 
 <div id="myModal" class="modal fade" role="dialog">
@@ -27,6 +27,7 @@
             <div class="modal-header">
                 <%--<button type="button" class="close" data-dismiss="modal">&times;</button>--%>
                 <h4 class="modal-title">Cart</h4>
+                <h4 id="count-sum">0</h4>
             </div>
             <div class="modal-body">
 
@@ -34,13 +35,13 @@
                 <table class="table" id="table-cart">
 
                     <tbody id="productsToCart">
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
+                        <%--<tr>--%>
+                            <%--<td></td>--%>
+                            <%--<td></td>--%>
+                            <%--<td></td>--%>
+                            <%--<td></td>--%>
+                            <%--<td></td>--%>
+                        <%--</tr>--%>
                     </tbody>
 
                 </table>

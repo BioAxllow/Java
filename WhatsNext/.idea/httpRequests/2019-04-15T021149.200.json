@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "date": "2018-09-10",
+    "number": "INV 01",
+    "sum": 1111.00,
+    "client": null,
+    "invLines": null
+  },
+  {
+    "id": 2,
+    "date": "2000-01-01",
+    "number": "INV 02",
+    "sum": 2222.00,
+    "client": null,
+    "invLines": null
+  },
+  {
+    "id": 3,
+    "date": "2018-09-26",
+    "number": "INV 03",
+    "sum": 3333.00,
+    "client": null,
+    "invLines": null
+  },
+  {
+    "id": 4,
+    "date": "2018-09-26",
+    "number": "INV 04",
+    "sum": 4444.00,
+    "client": null,
+    "invLines": null
+  }
+]

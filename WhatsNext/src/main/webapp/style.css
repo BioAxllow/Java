@@ -13,6 +13,6 @@
     color: ghostwhite;
 }
 
-/*.hide-id{*/
-    /*display: none;*/
-/*}*/
+.hide-id{
+    display: none;
+}

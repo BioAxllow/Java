@@ -6,13 +6,11 @@ import javax.persistence.Persistence;
 
 public class EntityManagerHelper {
 
-    public final static String FETCH_GRAPH="javax.persistence.fetchgraph";
-
+    public static final String FETCH_GRAPH = "javax.persistence.fetchgraph";
     private static final EntityManagerFactory emf;
     private static final ThreadLocal<EntityManager> threadLocal;
 
-    static { //sukuriami visi statiniai kintamieji tik pradejos krauti programa pirma kart.
-        //you cant use "this" for static defined method/variables
+    static {
         emf = Persistence.createEntityManagerFactory("pu");
         threadLocal = new ThreadLocal<EntityManager>();
     }
@@ -20,9 +18,8 @@ public class EntityManagerHelper {
     public static EntityManager getEntityManager() {
         EntityManager em = threadLocal.get();
 
-        if (em == null) {
+        if (em == null || !em.isOpen()) {
             em = emf.createEntityManager();
-            // set your flush mode here
             threadLocal.set(em);
         }
         return em;

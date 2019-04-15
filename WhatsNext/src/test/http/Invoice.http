@@ -71,7 +71,7 @@ Accept: application/json
 # (6 known properties: "number", "id", "date", "sum", "invLines", "client")
 # ignores "id" parameter, as our "id" is genereated automatically, nurodysim "id" 12 -> sukurs sekanti DB el, su "id" pvz po 4o - 5ą
 
-POST http://localhost:8080/laaaabas/api/invoice
+POST http://localhost:8080/laaaabas/api/invoice/1
 Content-Type: application/json
 
 {

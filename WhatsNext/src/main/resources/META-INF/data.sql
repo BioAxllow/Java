@@ -63,3 +63,8 @@ INSERT INTO inv_lines(invoice_id, product_id, price, quantity) VALUES(2, 5, 4455
 -- INSERT INTO inv_lines(invoice_id, product_id, price, quantity) VALUES(1, 1, 99.99, 10);
 -- INSERT INTO inv_lines(invoice_id, product_id, price, quantity) VALUES(1, 2, 9.99, 100);
 -- INSERT INTO users(username, secret, role) VALUES ('vardas@firma.lt', '$2y$12$DWh1PyJsP6JzFzP0VDrPcOzOFHiI260u.2Zx5ksbFpQ/KW4t1xDKK', 'Admin');
+
+-- insert into carts (sum) values (1);
+--
+-- insert into cart_lines (cart_id, product_id, qty) values (1, 1, 1);
+-- insert into cart_lines (cart_id, product_id, qty) values (1, 2, 1);

@@ -30,11 +30,6 @@ public class InvoiceServiceImpl extends BaseService<Invoice> {
     @Override
     public Response list(int size, int skip) {
         HttpSession session = servletRequest.getSession();
-
-//        if (session.getAttribute("user") != null) {
-//            return super.list(size, skip);
-//        }
-//        return Response.status(Response.Status.UNAUTHORIZED).build();
         return super.list(size, skip);
     }
 
@@ -57,23 +52,25 @@ public class InvoiceServiceImpl extends BaseService<Invoice> {
     @Path("/{id}")
     public Response addInvoiceLine(@PathParam("id") int id, AddInvoiceLineRequest addInvoiceLineRequest) {
 
-        Dao<Invoice> invoiceDao = createDao();
-        Invoice invoice = invoiceDao.read(id);
 
-        Dao<Product> productDao = new Dao<>(Product.class);
-        Product product = productDao.read(addInvoiceLineRequest.getId());
-        if (product == null) return Response.status(Response.Status.NOT_FOUND).build();
+        try (Dao<Invoice> invoiceDao = createDao()) {
+            Invoice invoice = invoiceDao.read(id);
 
-        if (invoice == null) return Response.status(Response.Status.NOT_FOUND).build();
-        InvLine invLine = new InvLine();
-        invLine.setInvoice(invoice);
-        invLine.setQuantity(addInvoiceLineRequest.getQty());
-        invLine.setProduct(product);
-        invLine.setPrice(product.getPrice());
+            Dao<Product> productDao = new Dao<>(Product.class);
+            Product product = productDao.read(addInvoiceLineRequest.getId());
+            if (product == null) return Response.status(Response.Status.NOT_FOUND).build();
 
-        invoice.getInvLines().add(invLine);
-        invoice = invoiceDao.update(invoice);
-        return Response.ok(invoice).build();
+            if (invoice == null) return Response.status(Response.Status.NOT_FOUND).build();
+            InvLine invLine = new InvLine();
+            invLine.setInvoice(invoice);
+            invLine.setQuantity(addInvoiceLineRequest.getQty());
+            invLine.setProduct(product);
+            invLine.setPrice(product.getPrice());
 
+            invoice.getInvLines().add(invLine);
+            invoice = invoiceDao.update(invoice);
+            return Response.ok(invoice).build();
+
+        }
     }
 }

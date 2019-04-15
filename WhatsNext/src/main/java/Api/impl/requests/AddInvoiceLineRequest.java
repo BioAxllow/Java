@@ -2,15 +2,15 @@ package Api.impl.requests;
 
 public class AddInvoiceLineRequest {
 
-    private int Id; //
+    private int id; //
     private int qty;
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        Id = id;
+        id = id;
     }
 
     public int getQty() {
@@ -21,4 +21,3 @@ public class AddInvoiceLineRequest {
         this.qty = qty;
     }
 }
-

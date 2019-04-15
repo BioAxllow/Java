@@ -9,8 +9,64 @@ POST http://localhost:8080/laaaabas/api/cart
 Accept: application/json
 Content-Type: application/json
 
+{}
+###
+
+POST http://localhost:8080/laaaabas/api/cart/add
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "qty": 2
+}
+
+###
+
+GET http://localhost:8080/laaaabas/api/cart/list
+Accept: application/json
+Content-Type: application/json
+
+###
+
+# Tomcat: http://localhost:8080/ecommerce/
+# App -> /api
+# CartService -> /cart
+
+# CRUD
+
+# ADD sukuriamas tuščias krepšelis
+POST http://localhost:8080/laaaabas/api/cart/add
+Content-Type: application/json
+Accept: application/json
+
 {
 
-  "has": "rara"
 }
+
+###
+
+# ADD ĮDEDAMA NAUJA PREKĖ Į KREPŠELĮ
+POST http://localhost:8080/ecommerce/api/cart/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 1,
+  "qty": 100
+}
+
+###
+# GET atspausdianami visi krepšeliai su prekėmis - blogai: ima atsitiktini skaičių prekių
+GET http://localhost:8080/ecommerce/api/cart/list
+Accept: application/json
+
+###
+
+# null 31, 3 188, 4 241, 5 294,
+# GET atspausdianami visi krepšeliai su prekėmis - blogai: ima atsitiktini skaičių prekių
+GET http://localhost:8080/ecommerce/api/cart/1/f
+Accept: application/json
+Content-Type: application/json
+
 ###
