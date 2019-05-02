@@ -1,0 +1,3 @@
+Petras Petraitis 8 1;2;3;10;10;
+Jonas Jonaitis 9 10;9;5;10;10;
+Paulius Paulaitis 5 5;9;5;10;10;

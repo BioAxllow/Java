@@ -1,0 +1,24 @@
+---------------1 uzduotis---------------
+1 2 3 4 5 6 7 8 9 10 11 12 
+---------------2 uzduotis---------------
+suma: 3.0
+---------------3 uzduotis---------------
+1 skaicius nelyginis
+2 skaicius lyginis
+3 skaicius nelyginis
+4 skaicius lyginis
+5 skaicius nelyginis
+6 skaicius lyginis
+7 skaicius nelyginis
+8 skaicius lyginis
+9 skaicius nelyginis
+10 skaicius lyginis
+11 skaicius nelyginis
+12 skaicius lyginis
+
+---------------4 uzduotis---------------
+6.5
+skaiciu vidurkis yra: 6.5;(be .toString);
+---------------5 uzduotis---------------
+minimalus sk yra: 1;
+---------------5 uzduotis---------------

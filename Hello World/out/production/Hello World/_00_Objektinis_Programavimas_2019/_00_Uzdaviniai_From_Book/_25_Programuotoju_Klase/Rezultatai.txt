@@ -1,0 +1,11 @@
+Andrijauskaitė_Agnė 1;
+Gulbinas_Kęstas 1;
+Jonas_Jonaitis 1;
+Kumponas_Ervidas 1;
+Žiulpauskas_Ąžuolas 1;
+Bružas_Darius 2;
+Eičinaitė_Ema 2;
+Pranauskytė_Meda 2;
+Vasaris_Liudas 2;
+Balsytė_Giedrė 3;
+Lapšytė_Vilija 3;

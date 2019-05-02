@@ -1,0 +1,5 @@
+S Andrius Jonaitis 21 2 Informatika
+D Jonas Jonaitis 25 6 Vadybininkas
+D Tadas Kvieciunas 26 2 Kelininkas
+S Stasys Stasiukas 33 2 Vadyba
+S Jogaile Mirune 26 3 Odontologija

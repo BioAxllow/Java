@@ -1,0 +1,4 @@
+Panasonic džiov. mašina  122 2;
+Bosch džiov. Mašina  124 3;
+Petra virdulys juodas  701 1;
+Sumoketi tiekejams: 8974.0 Eu;

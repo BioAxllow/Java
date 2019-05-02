@@ -1,0 +1,4 @@
+List<?> listas= new ArrayList<>();
+      object -> vietoje ?
+
+      listas.add

@@ -1,0 +1,11 @@
+Vardas: Andrius Pavarde: Jonaitis Amzius: 21 Patirtis: 2 Specialybe: Informatika
+
+Vardas: Jonas Pavarde: Jonaitis Amzius: 25 Patirtis: 6 Specialybe: Vadybininkas
+
+Vardas: Tadas Pavarde: Kvieciunas Amzius: 26 Patirtis: 2 Specialybe: Kelininkas
+
+Vardas: Stasys Pavarde: Stasiukas Amzius: 33 Patirtis: 2 Specialybe: Vadyba
+
+Vardas: Jogaile Pavarde: Mirune Amzius: 26 Patirtis: 3 Specialybe: Odontologija
+
+Vyriausias Vardas: Stasys Pavarde: Stasiukas Amzius: 33 Patirtis: 2 Specialybe: Vadyba

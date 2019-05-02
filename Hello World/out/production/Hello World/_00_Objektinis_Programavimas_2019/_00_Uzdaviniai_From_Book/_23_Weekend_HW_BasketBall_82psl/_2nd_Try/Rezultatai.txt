@@ -1,0 +1,14 @@
+************************************************************************************************************************
+|  Nr.  |  Vardas Pavarde          |  Baudos     |  Dvit.      |  Trit.      |  Taškai     |  Nepat.     |  Tikslumas  |
+************************************************************************************************************************
+|  4    |  Giedrius Purauskas      |  0          |  0          |  0          |  0          |  1          |  0.0        |
+|  9    |  Justinas Vitkus         |  1          |  2          |  1          |  8          |  0          |  100.0      |
+|  10   |  Henrikas Paulauskas     |  1          |  1          |  0          |  3          |  0          |  100.0      |
+|  11   |  Justas Ališauskas       |  0          |  1          |  1          |  5          |  0          |  100.0      |
+|  12   |  Aldevinas Siriūnaitis   |  1          |  0          |  0          |  1          |  1          |  50.0       |
+|  23   |  Mindaugas Lukonaitis    |  0          |  1          |  1          |  5          |  0          |  100.0      |
+|  33   |  Valdas Dobilas          |  0          |  1          |  0          |  2          |  0          |  100.0      |
+************************************************************************************************************************
+                     Daugiausiai įmetė tritaškių: : |  23        Mindaugas Lukonaitis: |  1.0         
+                         Daugiausiai taškų pelnė: : |  9              Justinas Vitkus: |  8.0         
+                                    Taikliausias: : |  33              Valdas Dobilas: |  100.0       

@@ -1,0 +1,2 @@
+Zodziu skaicius = 8
+Ka veikiat? Labai viskas. Gerai Java yra kul. 

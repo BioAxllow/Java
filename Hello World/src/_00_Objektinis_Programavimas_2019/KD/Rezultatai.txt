@@ -1,0 +1,8 @@
+Pirmojo masyvo vidurkis yra:6.0
+Antrojo masyvo vidurkis yra:4.636363636363637
+Didesnis yra: 6.0
+--------------------------------------------
+5.0: 1-ajam masyve didesniu sk nr uz jo skaiciu vid;
+6.0: 2-ajam masyve didesniu sk nr uz jo skaiciu vid;
+Sis masyvas turi daugiau elementu, didesniu nei savasis vidurkis: 
+1; 2; 8; 7; 1; 5; 5; 10; 1; 2; 9; 1; 2; 

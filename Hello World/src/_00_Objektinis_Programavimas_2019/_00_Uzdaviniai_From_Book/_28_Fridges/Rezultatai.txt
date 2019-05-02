@@ -1,0 +1,9 @@
+Philips sulčiaspaudė  225 12 199.99;
+Whirlpool šaldytuvas  418 0 1199.0;
+Lorenz el. krosnelė  21 12 499.0;
+Cook aerogrilis  23 11 359.0;
+DeLonghi kavamalė  615 3 109.0;
+Gastroback sulčiaspaudė  219 11 219.0;
+First kavamalė  603 21 99.99;
+Aurum el.virdulys  718 54 129.99;
+Beko šaldytuvas  431 18 1599.99;

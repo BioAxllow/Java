@@ -1,0 +1,6 @@
+Vardas: Petras Pavarde: Petraitis Amzius: 28 Profesija: Vadybininkas
+Vardas: Jonas Pavarde: Jonaitis Amzius: 35 Profesija: Santechnikas
+Vardas: Stasys Pavarde: Kablys Amzius: 22 Profesija: Statybininkas
+Vardas: Aurimas Pavarde: Klastauskas Amzius: 32 Profesija: Prgramer
+Vardas: Mindaugas Pavarde: Strasauskas Amzius: 45 Profesija: Hacker
+Vyriausiam zmogui: 45 metai;

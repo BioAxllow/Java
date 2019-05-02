@@ -1,0 +1,58 @@
+
+---------------------------------------------------------Database---------------------------------------------------------
+
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2005; Kaina: 2500; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: Opel; Modelis: Astra; Pagaminimo metai: 2010; Kaina: 4000; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2010; Kaina: 5000; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: VW; Modelis: Golf; Pagaminimo metai: 1997; Kaina: 400; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: Peugot; Modelis: 307; Pagaminimo metai: 2002; Kaina: 800; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: Volvo; Modelis: S60; Pagaminimo metai: 1997; Kaina: 600; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: Toyota; Modelis: Yaris; Pagaminimo metai: 2004; Kaina: 2000; Variklio turis: 1.4; Kuro tipas: B;
+Gamintojas: Audi; Modelis: A6; Pagaminimo metai: 2008; Kaina: 6000; Variklio turis: 3.0; Kuro tipas: B;
+Gamintojas: Toyota; Modelis: Corolla; Pagaminimo metai: 2002; Kaina: 1500; Variklio turis: 3.0; Kuro tipas: D;
+Gamintojas: BMW; Modelis: 320; Pagaminimo metai: 2007; Kaina: 4500; Variklio turis: 2.0; Kuro tipas: B;
+
+----------------------------------------Rasti seniausią mašiną ir ją atspausdinti----------------------------------------
+
+Gamintojas: VW; Modelis: Golf; Pagaminimo metai: 1997; Kaina: 400; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: Volvo; Modelis: S60; Pagaminimo metai: 1997; Kaina: 600; Variklio turis: 1.9; Kuro tipas: D;
+
+----------------------------------------Rasti naujausią mašiną ir ją atspausdinti----------------------------------------
+
+Gamintojas: Opel; Modelis: Astra; Pagaminimo metai: 2010; Kaina: 4000; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2010; Kaina: 5000; Variklio turis: 2.0; Kuro tipas: D;
+
+--------------------------------------Rasti visas mašinas naujesnes nei 2003 metai:--------------------------------------
+
+Gamintojas: Toyota; Modelis: Yaris; Pagaminimo metai: 2004; Kaina: 2000; Variklio turis: 1.4; Kuro tipas: B;
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2005; Kaina: 2500; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: BMW; Modelis: 320; Pagaminimo metai: 2007; Kaina: 4500; Variklio turis: 2.0; Kuro tipas: B;
+Gamintojas: Audi; Modelis: A6; Pagaminimo metai: 2008; Kaina: 6000; Variklio turis: 3.0; Kuro tipas: B;
+Gamintojas: Opel; Modelis: Astra; Pagaminimo metai: 2010; Kaina: 4000; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2010; Kaina: 5000; Variklio turis: 2.0; Kuro tipas: D;
+
+------------------Rasti visas mašinas, kurios yra pagamintos tarp 2005 ir 2009 metų ir jas atspausdinti------------------
+
+Gamintojas: BMW; Modelis: 320; Pagaminimo metai: 2007; Kaina: 4500; Variklio turis: 2.0; Kuro tipas: B;
+Gamintojas: Audi; Modelis: A6; Pagaminimo metai: 2008; Kaina: 6000; Variklio turis: 3.0; Kuro tipas: B;
+
+------------------------------------Rasti visas VW markės mašinas ir jas atspausdinti------------------------------------
+
+Gamintojas: VW; Modelis: Golf; Pagaminimo metai: 1997; Kaina: 400; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2005; Kaina: 2500; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2010; Kaina: 5000; Variklio turis: 2.0; Kuro tipas: D;
+
+----------------------------Rasti didžiausią variklio tūrį turinčią mašiną ir ją atspausdinti----------------------------
+
+Gamintojas: Toyota; Modelis: Corolla; Pagaminimo metai: 2002; Kaina: 1500; Variklio turis: 3.0; Kuro tipas: D;
+Gamintojas: Audi; Modelis: A6; Pagaminimo metai: 2008; Kaina: 6000; Variklio turis: 3.0; Kuro tipas: B;
+
+------------------------------------------Rasti D variklį turinčių mašinų kiekį------------------------------------------
+
+Gamintojas: VW; Modelis: Golf; Pagaminimo metai: 1997; Kaina: 400; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: Volvo; Modelis: S60; Pagaminimo metai: 1997; Kaina: 600; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: Opel; Modelis: Astra; Pagaminimo metai: 2010; Kaina: 4000; Variklio turis: 1.9; Kuro tipas: D;
+Gamintojas: Peugot; Modelis: 307; Pagaminimo metai: 2002; Kaina: 800; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2005; Kaina: 2500; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: VW; Modelis: Passat; Pagaminimo metai: 2010; Kaina: 5000; Variklio turis: 2.0; Kuro tipas: D;
+Gamintojas: Toyota; Modelis: Corolla; Pagaminimo metai: 2002; Kaina: 1500; Variklio turis: 3.0; Kuro tipas: D;

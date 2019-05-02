@@ -1,0 +1,18 @@
+---------------1 uzduotis---------------
+123 122 11 1 12 2 
+---------------2 uzduotis---------------
+suma: 3.0
+---------------3 uzduotis---------------
+123 skaicius nelyginis
+122 skaicius lyginis
+11 skaicius nelyginis
+1 skaicius nelyginis
+12 skaicius lyginis
+2 skaicius lyginis
+
+---------------4 uzduotis---------------
+45.166666666666664
+skaiciu vidurkis yra: 45.166666666666664;(be .toString);
+---------------5 uzduotis---------------
+minimalus sk yra: 1;
+---------------5 uzduotis---------------

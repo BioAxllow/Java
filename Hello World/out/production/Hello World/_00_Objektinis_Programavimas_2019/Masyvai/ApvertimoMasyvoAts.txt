@@ -1,0 +1,1 @@
+Nuskaitytu skaiciu vidurkis = 5.50
